@@ -9,12 +9,12 @@ print("Descarga completa!")
 
 #Implementar un buble que se de detenga
 #cuando la tecla pulsada es "ESCape"
-print("El bucle está corriendo... Presiona 'Esc' para detenerlo.")
+print("El bucle está corriendo Presiona 'Esc' para detenerlo.")
 
 while True:
     # Verifica si se presionó la tecla Escape
     if keyboard.is_pressed('esc'):
-        print("\n¡Tecla 'Esc' detectada! Deteniendo el bucle...")
+        print("\n¡Tecla 'Esc' detectada! Deteniendo el bucle")
         break
     
     # Tu lógica dentro del bucle
